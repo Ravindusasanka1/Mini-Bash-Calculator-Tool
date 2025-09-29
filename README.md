@@ -1,77 +1,68 @@
-# Mini-Bash-Calculator-Tool
-A simple menu-driven calculator implemented in Bash. This project demonstrates key shell scripting concepts and is a great practice for beginners.
+````markdown
+# Mini Bash Calculator Tool
 
-Features
+A simple **menu-driven calculator** implemented in Bash.  
+This project is a beginner-friendly way to practice **shell scripting concepts** in a functional CLI tool.
 
-Addition, Subtraction, Multiplication, Division with input validation (e.g., prevent division by zero).
+---
 
-Print numbers in a range between two user-provided numbers.
+## 🚀 Features
 
-Menu-driven interface using loops and case statements.
+- Perform **Addition, Subtraction, Multiplication, and Division** with input validation (e.g., prevents division by zero).  
+- **Print numbers in a range** between two user-provided numbers.  
+- **Menu-driven interface** using `while` loops and `case` statements.  
+- Flexible input options:  
+  - **Command-line arguments:**  
+    ```bash
+    ./mini_cal_tool.sh 5 3
+    ```
+  - **Interactive input** if no arguments are provided.  
+- Continuous operation until the user chooses to exit.
 
-Flexible input options:
+---
 
-Command-line arguments:
-bash
-./mini_cal_tool.sh 5 3
+## 🔑 Key Concepts Practiced
 
+- **Variables** → Store numbers from input or arguments.  
+- **Command-line arguments** → `$1`, `$2`.  
+- **Read inputs** → `read -p` for interactive input.  
+- **Arithmetic operations** → `+`, `-`, `*`, `/` in Bash.  
+- **Conditional logic** → Use `if` statements to handle errors like division by zero.  
+- **Loops** →  
+  - `while` loop → repeatedly show the menu.  
+  - `for` loop → print a sequence of numbers.  
+- **Case statements** → Efficient menu selection.
 
-Interactive input when no arguments are provided.
+---
 
-Continuous operation until the user chooses to exit.
+## 🛠️ Usage
 
-Key Concepts Practiced
+1. **Clone the repository**  
+   ```bash
+   git clone <repo-url>
+   cd <repo-directory>
+````
 
-Variables → Store numbers from input or arguments.
+2. **Make the script executable**
 
-Command Line Arguments → Process $1 and $2.
+   ```bash
+   chmod +x mini_cal_tool.sh
+   ```
 
-Read Inputs → Use read -p for interactive input.
+3. **Run the script**
 
-Arithmetic Operations → +, -, *, / in Bash.
+   ```bash
+   ./mini_cal_tool.sh          # Interactive mode
+   ./mini_cal_tool.sh 5 3      # Command-line arguments
+   ```
 
-Conditional Logic → Use if statements to handle errors like division by zero.
+4. **Follow the menu** to perform calculations or print number ranges.
 
-Loops →
+---
 
-while loop to repeatedly show the menu.
+## 💡 Example Run
 
-for loop to print sequences of numbers.
-
-Case Statements → Efficient menu selection.
-
-Usage
-
-Clone the repository
-
-git clone <repo-url>
-cd <repo-directory>
-
-
-Make the script executable
-
-chmod +x mini_cal_tool.sh
-
-
-Run the script
-
-./mini_cal_tool.sh            # Interactive mode
-./mini_cal_tool.sh 5 3        # Command-line arguments
-
-
-Follow the menu to perform calculations or print number ranges.
-
-Next Steps / To Do
-
-Add support for floating-point numbers using bc.
-
-Implement logging of operations with timestamps.
-
-Allow changing numbers without restarting the script.
-
-Expand menu with more mathematical functions (modulus, power, etc.).
-
-Screenshot / Example
+```bash
 $ ./mini_cal_tool.sh 8 2
 
 Choose an option:
@@ -83,7 +74,23 @@ Choose an option:
 6. Exit
 Enter Choice: 1
 Result = 10
+```
 
-Learning Outcome
 
-This project helped me combine multiple Bash scripting concepts into a working CLI tool, reinforcing variables, loops, conditionals, arithmetic, command-line arguments, and menu-driven program design.
+## 🎯 Learning Outcome
+
+This project helped me combine multiple Bash scripting concepts into a **working CLI tool**, reinforcing:
+
+* Variables
+* Loops and conditionals
+* Arithmetic operations
+* Command-line arguments
+* Menu-driven program design
+
+It’s a solid foundation for more advanced shell scripting projects.
+
+```
+
+
+```
+
