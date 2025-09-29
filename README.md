@@ -33,7 +33,7 @@ This project is a beginner-friendly way to practice **shell scripting concepts**
   - `for` loop → print a sequence of numbers.  
 - **Case statements** → Efficient menu selection.
 
----
+
 
 ## 🛠️ Usage
 
@@ -89,8 +89,5 @@ This project helped me combine multiple Bash scripting concepts into a **working
 
 It’s a solid foundation for more advanced shell scripting projects.
 
-```
 
-
-```
 
